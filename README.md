@@ -15,13 +15,15 @@ git status
 git add . 
 
 # Second time you do this with new changes, should be in GREEN (denoting they've
-# been added already)
+# been added already). Will show that changes have been added to local git repository 
+# and is now yet to be commited on local repository.
 git status
 
 
 # commit your change to the local repository. 
 # Save a snapshot of the changes in the staging area with a descriptive message 
 # "[message goes here]"
+# First time users will need to verify who you are. git config --global
 git commit -m ""
 
 
