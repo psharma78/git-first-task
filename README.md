@@ -26,6 +26,8 @@ git status
 # First time users will need to verify who you are. git config --global user.email "your email"
 git commit -m ""
 
+# Displays commit history on local repository.
+git log
 
 # Then you will push your changes to remote branch so others can see your 
 # changes. Pushing your changes into remote branch and remote origin.
