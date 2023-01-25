@@ -23,7 +23,7 @@ git status
 # commit your change to the local repository. 
 # Save a snapshot of the changes in the staging area with a descriptive message 
 # "[message goes here]"
-# First time users will need to verify who you are. git config --global
+# First time users will need to verify who you are. git config --global user.email "your email"
 git commit -m ""
 
 
