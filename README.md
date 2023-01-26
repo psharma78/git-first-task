@@ -31,4 +31,13 @@ git log
 
 # Then you will push your changes to remote branch so others can see your 
 # changes. Pushing your changes into remote branch and remote origin.
-git push origin
+git push origin branchName
+
+
+# Wk 1, Lec 3 - 01/18/23
+
+# Displays how many branches are your local repository system.
+git branch
+
+# Create a new branch with given name, -b will create new branch. (flag to indicate branch name)
+git checkout -b branchName
