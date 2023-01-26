@@ -1,8 +1,11 @@
 # git-first-task
 
 # This is my first repository, it contains basic git commands.
-# First make changes to local repository, i.e. add new files, edit Readme.md etc.
+# First clone remote repository onto local machine (only need to do 1x)
+git clone GitHubURL
 
+
+# Then make changes to local repository, i.e. add new files, edit Readme.md etc.
 
 # show status of the current repository inc the files that have been modified
 # and need to be commited. 
@@ -31,4 +34,4 @@ git log
 
 # Then you will push your changes to remote branch so others can see your 
 # changes. Pushing your changes into remote branch and remote origin.
-git push origin
+git push origin 
