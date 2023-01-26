@@ -44,3 +44,6 @@ git branch
 
 # Create a new branch with given name, -b will create new branch. (flag to indicate branch name)
 git checkout -b branchName
+
+# Switch to a different branch
+git checkout branchName
