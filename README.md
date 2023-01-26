@@ -1,8 +1,11 @@
 # git-first-task
 
 # This is my first repository, it contains basic git commands.
-# First make changes to local repository, i.e. add new files, edit Readme.md etc.
+# First clone remote repository onto local machine (only need to do 1x)
+git clone GitHubURL
 
+
+# Then make changes to local repository, i.e. add new files, edit Readme.md etc.
 
 # show status of the current repository inc the files that have been modified
 # and need to be commited. 
@@ -41,3 +44,6 @@ git branch
 
 # Create a new branch with given name, -b will create new branch. (flag to indicate branch name)
 git checkout -b branchName
+
+# Switch to a different branch
+git checkout branchName
