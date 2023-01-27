@@ -1,9 +1,13 @@
 # git-first-task
 
+THIS SHOULD ONLY APPEAR IN UAT
+
 # This is my first repository, it contains basic git commands.
 # First clone remote repository onto local machine (only need to do 1x)
 git clone GitHubURL
 
+
+# Then make changes to local repository, i.e. add new files, edit Readme.md etc.
 
 # Then make changes to local repository, i.e. add new files, edit Readme.md etc.
 
