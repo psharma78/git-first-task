@@ -46,8 +46,20 @@ git push origin branchName
 # Displays list of branches on your local repository system.
 git branch
 
-# Create a new branch with given name, -b will create new branch. (flag to indicate branch name)
+# Create a new branch with given name, -b will create new branch. 
+# (flag to indicate branch name)
 git checkout -b branchName
 
 # Switch to a different branch
 git checkout branchName
+
+
+# Merge new changes from sourceBranch to targetBranch. Need to 
+# navigate FIRST to target branch (branch you are seeking to 
+# update with new changes). Ex: develop --> uat --> main
+# -> git checkout targetBranch
+git merge sourceBranch
+
+# then you need push those new changes on the targetBranch into 
+# the remote repository.
+git push origin targetBranch
