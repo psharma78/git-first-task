@@ -63,6 +63,6 @@ git merge sourceBranch
 git push origin targetBranch
 
 # git pull is an alternative to merge (except you must first push 
-# new code remotely to do this). Unlike merge, pull cannot pull locally, 
+# new code remotely to do this). Unlike MERGE, PULL cannot pull locally, 
 # has to be pulling from remote.
 git pull sourceBranch(remote)
